@@ -1,0 +1,6 @@
+package-as: AckisRecipeList_Jewelcrafting
+
+enable-nolib-creation: yes
+
+required-dependencies:
+    - arl
