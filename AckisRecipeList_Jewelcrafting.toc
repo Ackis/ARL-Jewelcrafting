@@ -1,4 +1,4 @@
-## Interface: 50400
+## Interface: 60000
 ## Title: Ackis Recipe List: Jewelcrafting
 ## Notes: Jewelcrafting data for Ackis Recipe List.
 ## Author: Ackis, Pompy, Ressy, Torhal
