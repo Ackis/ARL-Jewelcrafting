@@ -7142,11 +7142,13 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(170700, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Taladite Recrystalizer -- 170701
 	recipe = AddRecipe(170701, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+--	recipe:AddVendor()
 
 	-- Glowing Iron Band -- 170704
 	recipe = AddRecipe(170704, V.WOD, Q.COMMON)
