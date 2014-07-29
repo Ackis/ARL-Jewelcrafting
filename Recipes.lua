@@ -7195,6 +7195,16 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
+	-- Glowing Taladite Pendant -- 170716
+	recipe = AddRecipe(170716, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Whispering Taladite Pendant -- 170718
+	recipe = AddRecipe(170718, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
 	-- Critical Strike Taladite -- 170719
 	recipe = AddRecipe(170719, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
