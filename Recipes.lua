@@ -7141,7 +7141,7 @@ function module:InitializeRecipes()
 	-- Taladite Crystal -- 170700
 	recipe = AddRecipe(170700, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Taladite Recrystalizer -- 170701
