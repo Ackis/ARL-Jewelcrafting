@@ -41,7 +41,8 @@ function module:InitializeTrainers()
 	addon:AddTrainer(52645, "Aessa Silverdew", Z.DARNASSUS, 54.2, 30.4, "Alliance")
 	addon:AddTrainer(52657, "Nahari Cloudchaser", Z.THUNDER_BLUFF, 35.0, 54.0, "Horde")
 	addon:AddTrainer(65098, "Mai the Jade Shaper", Z.THE_JADE_FOREST, 48.1, 35.0, "Neutral")
-	addon:AddTrainer(85916, "Artificer Nissea", Z.STORMSHIELD, 44.1, 36.5, "Alliance")
+	addon:AddTrainer(85916, "Artificer Nissea", Z.STORMSHIELD, 43.5, 33.9, "Alliance")
+	addon:AddTrainer(86010, "Alixander Swiftsteel", Z.WARSPEAR, 60.0, 40.6, "Horde")
 
 	self.InitializeTrainers = nil
 end
