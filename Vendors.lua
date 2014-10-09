@@ -58,7 +58,10 @@ function module:InitializeVendors()
 	AddVendor(56925,	L["Farrah Facet"],			Z.STORMWIND_CITY,		63.8,	61.6,	"Alliance")
 	AddVendor(57922,	L["Taryssa Lazuria"],			Z.ORGRIMMAR,			72.4,	34.6,	"Horde")
 	AddVendor(58414,	L["San Redscale"],			Z.THE_JADE_FOREST,		56.6,	44.4,	"Neutral")
---	AddVendor(		L["Costan Highwall"],			Z.LUNARFALL,			0,	0,	"Alliance") -- In Garrison
+	AddVendor(77356,	L["Costan Highwall"],			Z.LUNARFALL,			0,	0,	"Alliance") -- Alliance Garrison
+	AddVendor(79832,	L["Dorogarr"],				Z.FROSTWALL,			0,	0,	"Horde") -- Horde Garrison
+	AddVendor(87052,	L["Artificer Harlaan"],			Z.STORMSHIELD,			44.1,	37.5,	"Alliance") -- Alliance Ashran
+	AddVendor(87548,	L["Kaevan Highwit"],			Z.WARSPEAR,			60.0,	40.4,	"Horde") -- Horde Ashran
 
 	self.InitializeVendors = nil
 end
