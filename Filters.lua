@@ -139,6 +139,7 @@ function module:InitializeItemFilters(parent_panel)
 		jewelcrafting_materials		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Materials"]),	text = L["Materials"],		row = 1, col = 2 },
 		jewelcrafting_mount		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MOUNTS),		text = _G.MOUNTS,		row = 2, col = 1 },
 		jewelcrafting_pet		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 2, col = 2 },
+		jewelcrafting_item_enhancement	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Item Enhancement"]),	text = L["Item Enhancement"],	row = 3, col = 1 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)

@@ -37,6 +37,7 @@ module.ITEM_FILTER_TYPES = {
 	JEWELCRAFTING_GEM_YELLOW = true,
 	JEWELCRAFTING_MOUNT = true,
 	JEWELCRAFTING_PET = true,
+	JEWELCRAFTING_ITEM_ENHANCEMENT = true,
 }
 
 function module:OnInitialize()
