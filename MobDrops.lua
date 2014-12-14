@@ -25,8 +25,15 @@ local Z = constants.ZONE_NAMES
 -- What we _really_ came here to see...
 -----------------------------------------------------------------------
 function module:InitializeMobDrops()
-	local function AddMob(mob_id, mob_name, zone_name, coord_x, coord_y)
-		addon.AcquireTypes.MobDrop:AddEntity(mob_id, mob_name, zone_name, coord_x, coord_y, nil)
+	local function AddMob(npcID, npcName, zoneName, coordX, coordY)
+		addon.AcquireTypes.MobDrop:AddEntity(module, {
+			coord_x = coordX,
+			coord_y = coordY,
+			faction = nil,
+			identifier = npcID,
+			location = zoneName,
+			name = npcName,
+		})
 	end
 
 	AddMob(8983,	BN.GOLEM_LORD_ARGELMACH,		Z.BLACKROCK_DEPTHS,		0, 0)
