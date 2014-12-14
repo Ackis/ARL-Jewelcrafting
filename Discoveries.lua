@@ -26,6 +26,7 @@ function module:InitializeDiscoveries()
 			coord_y = coordY,
 			faction = faction,
 			identifier = identifier,
+			item_list = {},
 			location = location,
 			name = L[identifier],
 		})
