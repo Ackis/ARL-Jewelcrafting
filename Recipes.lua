@@ -8,8 +8,13 @@ local _G = getfenv(0)
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
 
-local constants = private.addon.constants
-local module = private.addon:GetModule(private.module_name)
+local addon = private.addon
+if not addon then
+	return
+end
+
+local constants = addon.constants
+local module = addon:GetModule(private.module_name)
 
 -------------------------------------------------------------------------------
 -- Filter flags. Acquire types, and Reputation levels.
