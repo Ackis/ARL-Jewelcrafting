@@ -28,13 +28,24 @@ local Z = constants.ZONE_NAMES
 local FAC = constants.FACTION_IDS
 local REP = constants.REP_LEVELS
 
+module.Recipes = {}
+
 --------------------------------------------------------------------------------------------------------------------
 -- Initialize!
 --------------------------------------------------------------------------------------------------------------------
 function module:InitializeRecipes()
-	local function AddRecipe(spell_id, genesis, quality)
-		return private.addon:AddRecipe(spell_id, constants.PROFESSION_SPELL_IDS.JEWELCRAFTING, genesis, quality)
+	local function AddRecipe(spellID, expansionID, quality)
+		return addon:AddRecipe(module, {
+			acquire_data = {},
+			flags = {},
+			genesis = constants.GAME_VERSION_NAMES[expansionID],
+			name = _G.GetSpellInfo(spellID),
+			profession = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.JEWELCRAFTING),
+			quality = quality,
+			_spell_id = spellID,
+		})
 	end
+
 	local recipe
 
 	-------------------------------------------------------------------------------
