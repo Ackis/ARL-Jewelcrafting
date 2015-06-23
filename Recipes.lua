@@ -7389,7 +7389,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122551, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(118723, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(90894, 91030)
+	recipe:Retire()
 
 	-- Primal Gemcutting -- 182127
 	recipe = AddRecipe(182127, V.WOD, Q.COMMON)
@@ -7397,6 +7397,22 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122714, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(115524, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_CREATED_ITEM")
+	recipe:AddVendor(90894, 91030)
+
+	-- Mighty Taladite Amplifier -- 187493
+	recipe = AddRecipe(187493, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127726, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127716, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
+	-- Savage Taladite Amplifier -- 187517
+	recipe = AddRecipe(187517, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127744, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127734, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(90894, 91030)
 
 	self.InitializeRecipes = nil
