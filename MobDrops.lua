@@ -62,6 +62,9 @@ function module:InitializeMobDrops()
 	AddMob(30222,	L["Stormforged Infiltrator"],		Z.THE_STORM_PEAKS,		58.5, 63.2)
 	AddMob(30260,	L["Stoic Mammoth"],			Z.THE_STORM_PEAKS,		54.8, 64.9)
 	AddMob(30448,	L["Plains Mammoth"],			Z.THE_STORM_PEAKS,		66.1, 45.6)
+	AddMob(76266,	BN.HIGH_SAGE_VIRYX,			Z.SKYREACH,			 0.0,  0.0)
+	AddMob(87493,	BN.RUKHMAR,				Z.SPIRES_OF_ARAK,		35.0, 32.0)
+	AddMob(95067,	BN.SHADOW_LORD_ISKAR,			Z.HELLFIRE_CITADEL,		 0.0,  0.0)
 
 	self.InitializeMobDrops = nil
 end

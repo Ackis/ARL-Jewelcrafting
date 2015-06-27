@@ -7391,5 +7391,53 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(90894, 91030)
 
+	-- Immaculate Critical Strike Taladite -- 187634
+	recipe = AddRecipe(187634, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetRecipeItem(127771, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127760, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddMobDrop(95067)
+
+	-- Immaculate Haste Taladite -- 187635
+	recipe = AddRecipe(187635, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetRecipeItem(127772, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127761, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddMobDrop(76266)
+	recipe:AddCustom("MYTHIC")
+
+	-- Immaculate Mastery Taladite -- 187636
+	recipe = AddRecipe(187636, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetRecipeItem(127773, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127762, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddVendor(68363, 68364)
+
+	-- Immaculate Multistrike Taladite -- 187637
+	recipe = AddRecipe(187637, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetRecipeItem(127774, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127763, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddRepVendor(FAC.ORDER_OF_THE_AWAKENED, REP.HONORED, 86379, 86387, 86389, 86391, 91322, 92501,  92503, 95424)
+
+	-- Immaculate Versatility Taladite -- 187639
+	recipe = AddRecipe(187639, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetCraftedItem(127764, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(39175, 39195)
+
+	-- Immaculate Stamina Taladite -- 187640
+	recipe = AddRecipe(187640, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(700, 700, 700, 707, 715)
+	recipe:SetRecipeItem(127775, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127765, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddMobDrop(87493)
+
 	self.InitializeRecipes = nil
 end

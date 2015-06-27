@@ -70,10 +70,21 @@ function module:InitializeVendors()
 	AddVendor(56925,	L["Farrah Facet"],			Z.STORMWIND_CITY,		63.8,	61.6,	"Alliance")
 	AddVendor(57922,	L["Taryssa Lazuria"],			Z.ORGRIMMAR,			72.4,	34.6,	"Horde")
 	AddVendor(58414,	L["San Redscale"],			Z.THE_JADE_FOREST,		56.6,	44.4,	"Neutral")
+	AddVendor(68363, 	L["Quackenbush"],			Z.DEEPRUN_TRAM,			54.4,	29.8,	"Alliance")
+	AddVendor(68364,	L["Paul North"],			Z.BRAWLGAR_ARENA,		51.4,	27.4,	"Horde")
 	AddVendor(77356,	L["Costan Highwall"],			Z.LUNARFALL,			0,	0,	"Alliance") -- Alliance Garrison
 	AddVendor(79832,	L["Dorogarr"],				Z.FROSTWALL,			0,	0,	"Horde") -- Horde Garrison
+	AddVendor(86379,	L["Dawn-Seeker Rikks"],			Z.WARSPEAR,			65.8,	64.6,	"Horde")
+	AddVendor(86389,	L["Dawn-Seeker Verroak"],		Z.STORMSHIELD,			49.6,	61.6,	"Alliance")
+	AddVendor(86387,	L["Dawn-Seeker Rilak"],			Z.STORMSHIELD,			50.0,	61.8,	"Alliance")
+	AddVendor(86391,	L["Dawn-Seeker Krek"],			Z.STORMSHIELD,			50.6,	61.6,	"Alliance")
 	AddVendor(87052,	L["Artificer Harlaan"],			Z.STORMSHIELD,			44.1,	37.5,	"Alliance") -- Alliance Ashran
 	AddVendor(87548,	L["Kaevan Highwit"],			Z.WARSPEAR,			60.0,	40.4,	"Horde") -- Horde Ashran
+	AddVendor(91322,	L["Dawn-Seeker Kayrek"],		Z.WARSPEAR,			65.6,	64.6,	"Horde")
+	AddVendor(92501,	L["Dawn-Seeker Kasrek"],		Z.WARSPEAR,			51.6,	61.8,	"Horde")
+	AddVendor(92503,	L["Dawn-Seeker Skariss"],		Z.WARSPEAR,			66.2,	62.8,	"Alliance")
+	AddVendor(95424,	L["Dawn-Seeker Krisek"],		Z.TANAAN_JUNGLE,		57.8,	59.4,	"Alliance")
+	AddVendor(95425,	L["Dawn-Seeker Krisek"],		Z.TANAAN_JUNGLE,		60.4,	46.6,	"Horde")   -- Blizzard needs to stop having the same NPC id in multiple places
 
 	self.InitializeVendors = nil
 end
