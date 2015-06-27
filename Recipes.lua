@@ -7108,7 +7108,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(116080, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(115529, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77356, 79832, 87052, 87548)
+	recipe:Retire()
 
 	-- Glowing Iron Band -- 170704
 	recipe = AddRecipe(170704, V.WOD, Q.COMMON)
