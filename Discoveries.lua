@@ -33,6 +33,7 @@ function module:InitializeDiscoveries()
 	end
 
 	AddDiscovery("DISCOVERY_JC_PANDARIA")
+	AddDiscovery("DISCOVERY_JC_WOD")
 
 	self.InitializeDiscoveries = nil
 end
