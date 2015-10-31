@@ -5065,7 +5065,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75067, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Vicious Amberjewel Band -- 99540
 	recipe = AddRecipe(99540, V.CATA, Q.COMMON)
@@ -5073,7 +5073,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75068, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Vicious Ruby Signet -- 99541
 	recipe = AddRecipe(99541, V.CATA, Q.COMMON)
@@ -5081,7 +5081,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75071, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Vicious Sapphire Necklace -- 99542
 	recipe = AddRecipe(99542, V.CATA, Q.COMMON)
@@ -5089,7 +5089,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75074, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Vicious Amberjewel Pendant -- 99543
 	recipe = AddRecipe(99543, V.CATA, Q.COMMON)
@@ -5097,7 +5097,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75075, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Vicious Ruby Choker -- 99544
 	recipe = AddRecipe(99544, V.CATA, Q.COMMON)
@@ -5105,7 +5105,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75078, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(5388, 15501, 18751, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
+	recipe:AddTrainer(5388, 15501, 18751, 18774, 19775, 28701, 33590, 44582, 52586, 52587, 52645, 52657, 65098, 85916, 86010)
 
 	-- Rigid Deepholm Iolite -- 101735
 	recipe = AddRecipe(101735, V.CATA, Q.RARE)
