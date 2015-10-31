@@ -2722,7 +2722,7 @@ function module:InitializeRecipes()
 	-- Misty Forest Emerald -- 54003
 	recipe = AddRecipe(54003, V.WOTLK, Q.RARE)
 	recipe:SetSkillLevels(390, 390, 410, 425, 440)
-	recipe:SetRecipeItem(41781, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(41724, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(40095, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
