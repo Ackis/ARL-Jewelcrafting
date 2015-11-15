@@ -485,7 +485,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(21792, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(11189)
+	recipe:AddLimitedVendor(11189, 1)
 
 	-- Band of Natural Fire -- 26916
 	recipe = AddRecipe(26916, V.TBC, Q.COMMON)
