@@ -1999,7 +1999,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39996, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Bold Bloodstone -- 53831
 	recipe = AddRecipe(53831, V.WOTLK, Q.COMMON)
@@ -2071,7 +2071,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(41559, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(39917, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Sovereign Shadow Crystal -- 53859
 	recipe = AddRecipe(53859, V.WOTLK, Q.COMMON)
@@ -2104,7 +2104,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39945, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Defender's Shadow Crystal -- 53869
 	recipe = AddRecipe(53869, V.WOTLK, Q.UNCOMMON)
@@ -2162,7 +2162,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39950, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Fierce Huge Citrine -- 53876
 	recipe = AddRecipe(53876, V.WOTLK, Q.COMMON)
@@ -2188,7 +2188,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39954, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Deft Huge Citrine -- 53880
 	recipe = AddRecipe(53880, V.WOTLK, Q.COMMON)
@@ -2221,7 +2221,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39958, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Reckless Huge Citrine -- 53885
 	recipe = AddRecipe(53885, V.WOTLK, Q.UNCOMMON)
@@ -2287,7 +2287,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(41572, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(39977, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Forceful Dark Jade -- 53920
 	recipe = AddRecipe(53920, V.WOTLK, Q.COMMON)
@@ -2329,7 +2329,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39982, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Energized Dark Jade -- 53925
 	recipe = AddRecipe(53925, V.WOTLK, Q.COMMON)
@@ -2346,7 +2346,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39991, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Shattered Dark Jade -- 53933
 	recipe = AddRecipe(53933, V.WOTLK, Q.UNCOMMON)
@@ -2355,7 +2355,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39992, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Solid Chalcedony -- 53934
 	recipe = AddRecipe(53934, V.WOTLK, Q.COMMON)
@@ -2378,7 +2378,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(41560, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(39932, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Delicate Scarlet Ruby -- 53945
 	recipe = AddRecipe(53945, V.WOTLK, Q.RARE)
@@ -2387,7 +2387,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(39997, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Brilliant Scarlet Ruby -- 53946
 	recipe = AddRecipe(53946, V.WOTLK, Q.RARE)
@@ -2405,7 +2405,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40000, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Flashing Scarlet Ruby -- 53949
 	recipe = AddRecipe(53949, V.WOTLK, Q.RARE)
@@ -2414,7 +2414,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40001, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Precise Scarlet Ruby -- 53951
 	recipe = AddRecipe(53951, V.WOTLK, Q.RARE)
@@ -2431,7 +2431,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42138, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(40008, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Sparkling Sky Sapphire -- 53954
 	recipe = AddRecipe(53954, V.WOTLK, Q.RARE)
@@ -2440,7 +2440,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40010, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Stormy Sky Sapphire -- 53955
 	recipe = AddRecipe(53955, V.WOTLK, Q.RARE)
@@ -2466,7 +2466,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40014, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Mystic Autumn's Glow -- 53960
 	recipe = AddRecipe(53960, V.WOTLK, Q.RARE)
@@ -2483,7 +2483,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40017, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Sovereign Twilight Opal -- 53962
 	recipe = AddRecipe(53962, V.WOTLK, Q.RARE)
@@ -2501,7 +2501,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40023, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Timeless Twilight Opal -- 53965
 	recipe = AddRecipe(53965, V.WOTLK, Q.RARE)
@@ -2591,7 +2591,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40044, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Lucent Monarch Topaz -- 53981
 	recipe = AddRecipe(53981, V.WOTLK, Q.RARE)
@@ -2609,7 +2609,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40048, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Veiled Twilight Opal -- 53985
 	recipe = AddRecipe(53985, V.WOTLK, Q.RARE)
@@ -2618,7 +2618,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40049, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Willful Monarch Topaz -- 53986
 	recipe = AddRecipe(53986, V.WOTLK, Q.RARE)
@@ -2636,7 +2636,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40051, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Deadly Monarch Topaz -- 53988
 	recipe = AddRecipe(53988, V.WOTLK, Q.RARE)
@@ -2654,7 +2654,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40055, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Stalwart Monarch Topaz -- 53993
 	recipe = AddRecipe(53993, V.WOTLK, Q.RARE)
@@ -2682,7 +2682,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddRepVendor(FAC.FRENZYHEART_TRIBE, REP.REVERED, 31911)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Nimble Forest Emerald -- 53997
 	recipe = AddRecipe(53997, V.WOTLK, Q.RARE)
@@ -2691,7 +2691,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40088, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER, F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Regal Forest Emerald -- 53998
 	recipe = AddRecipe(53998, V.WOTLK, Q.RARE)
@@ -2700,7 +2700,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40089, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Steady Forest Emerald -- 54000
 	recipe = AddRecipe(54000, V.WOTLK, Q.RARE)
@@ -2717,7 +2717,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40091, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Misty Forest Emerald -- 54003
 	recipe = AddRecipe(54003, V.WOTLK, Q.RARE)
@@ -2745,7 +2745,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40100, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Energized Forest Emerald -- 54011
 	recipe = AddRecipe(54011, V.WOTLK, Q.RARE)
@@ -2754,7 +2754,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40105, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Radiant Forest Emerald -- 54012
 	recipe = AddRecipe(54012, V.WOTLK, Q.RARE)
@@ -2806,7 +2806,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(41705, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41377, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Tireless Skyflare Diamond -- 55386
 	recipe = AddRecipe(55386, V.WOTLK, Q.COMMON)
@@ -2841,7 +2841,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41285, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Destructive Skyflare Diamond -- 55390
 	recipe = AddRecipe(55390, V.WOTLK, Q.RARE)
@@ -2859,7 +2859,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41333, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Enigmatic Skyflare Diamond -- 55393
 	recipe = AddRecipe(55393, V.WOTLK, Q.RARE)
@@ -2893,7 +2893,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41401, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Bracing Earthsiege Diamond -- 55397
 	recipe = AddRecipe(55397, V.WOTLK, Q.RARE)
@@ -2927,7 +2927,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41398, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Austere Earthsiege Diamond -- 55401
 	recipe = AddRecipe(55401, V.WOTLK, Q.RARE)
@@ -2952,7 +2952,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41382, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Invigorating Earthsiege Diamond -- 55404
 	recipe = AddRecipe(55404, V.WOTLK, Q.RARE)
@@ -2961,7 +2961,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41385, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Beaming Earthsiege Diamond -- 55405
 	recipe = AddRecipe(55405, V.WOTLK, Q.RARE)
@@ -2979,7 +2979,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41376, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_META")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Bold Dragon's Eye -- 56049
 	recipe = AddRecipe(56049, V.WOTLK, Q.RARE)
@@ -2988,7 +2988,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42142, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Delicate Dragon's Eye -- 56052
 	recipe = AddRecipe(56052, V.WOTLK, Q.RARE)
@@ -2997,7 +2997,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42143, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Brilliant Dragon's Eye -- 56053
 	recipe = AddRecipe(56053, V.WOTLK, Q.RARE)
@@ -3006,7 +3006,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42144, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Subtle Dragon's Eye -- 56055
 	recipe = AddRecipe(56055, V.WOTLK, Q.RARE)
@@ -3015,7 +3015,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42151, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Flashing Dragon's Eye -- 56056
 	recipe = AddRecipe(56056, V.WOTLK, Q.RARE)
@@ -3024,7 +3024,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42152, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Mystic Dragon's Eye -- 56079
 	recipe = AddRecipe(56079, V.WOTLK, Q.RARE)
@@ -3032,7 +3032,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42305, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(42158, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Precise Dragon's Eye -- 56081
 	recipe = AddRecipe(56081, V.WOTLK, Q.RARE)
@@ -3041,7 +3041,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42154, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Quick Dragon's Eye -- 56083
 	recipe = AddRecipe(56083, V.WOTLK, Q.RARE)
@@ -3050,7 +3050,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42150, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Rigid Dragon's Eye -- 56084
 	recipe = AddRecipe(56084, V.WOTLK, Q.RARE)
@@ -3059,7 +3059,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42156, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Smooth Dragon's Eye -- 56085
 	recipe = AddRecipe(56085, V.WOTLK, Q.RARE)
@@ -3068,7 +3068,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42149, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Solid Dragon's Eye -- 56086
 	recipe = AddRecipe(56086, V.WOTLK, Q.RARE)
@@ -3076,7 +3076,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42311, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(36767, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Sparkling Dragon's Eye -- 56087
 	recipe = AddRecipe(56087, V.WOTLK, Q.RARE)
@@ -3085,7 +3085,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42145, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Stormy Dragon's Eye -- 56088
 	recipe = AddRecipe(56088, V.WOTLK, Q.RARE)
@@ -3093,7 +3093,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42313, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(42155, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Bloodstone Band -- 56193
 	recipe = AddRecipe(56193, V.WOTLK, Q.COMMON)
@@ -3193,7 +3193,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42642, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Earthguard Ring -- 56497
 	recipe = AddRecipe(56497, V.WOTLK, Q.EPIC)
@@ -3202,7 +3202,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42643, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.DPS, F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Spellshock Ring -- 56498
 	recipe = AddRecipe(56498, V.WOTLK, Q.EPIC)
@@ -3211,7 +3211,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42644, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Impact Choker -- 56499
 	recipe = AddRecipe(56499, V.WOTLK, Q.EPIC)
@@ -3220,7 +3220,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42645, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Earthguard Chain -- 56500
 	recipe = AddRecipe(56500, V.WOTLK, Q.EPIC)
@@ -3229,7 +3229,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42646, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.DPS, F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Spellshock Necklace -- 56501
 	recipe = AddRecipe(56501, V.WOTLK, Q.EPIC)
@@ -3238,7 +3238,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42647, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Enchanted Pearl -- 56530
 	recipe = AddRecipe(56530, V.WOTLK, Q.COMMON)
@@ -3309,7 +3309,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43250, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.DPS, F.TANK)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Ring of Scarlet Shadows -- 58148
 	recipe = AddRecipe(58148, V.WOTLK, Q.RARE)
@@ -3318,7 +3318,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43251, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Windfire Band -- 58149
 	recipe = AddRecipe(58149, V.WOTLK, Q.RARE)
@@ -3327,7 +3327,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43252, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Ring of Northern Tears -- 58150
 	recipe = AddRecipe(58150, V.WOTLK, Q.RARE)
@@ -3336,7 +3336,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43253, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Savage Titanium Ring -- 58492
 	recipe = AddRecipe(58492, V.WOTLK, Q.RARE)
@@ -3345,7 +3345,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43482, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Savage Titanium Band -- 58507
 	recipe = AddRecipe(58507, V.WOTLK, Q.RARE)
@@ -3354,7 +3354,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43498, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Titanium Frostguard Ring -- 58954
 	recipe = AddRecipe(58954, V.WOTLK, Q.EPIC)
@@ -3362,7 +3362,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(43597, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(43582, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
-	recipe:AddVendor(28721, 33602)
+	recipe:AddVendor(28721, 33602, 93526)
 
 	-- Figurine - Monarch Crab -- 59759
 	recipe = AddRecipe(59759, V.WOTLK, Q.COMMON)
@@ -3433,7 +3433,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40167, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Steady Eye of Zul -- 66428
 	recipe = AddRecipe(66428, V.WOTLK, Q.RARE)
@@ -3441,7 +3441,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(46898, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(40168, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Nimble Eye of Zul -- 66429
 	recipe = AddRecipe(66429, V.WOTLK, Q.RARE)
@@ -3450,7 +3450,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40166, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER, F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Jagged Eye of Zul -- 66431
 	recipe = AddRecipe(66431, V.WOTLK, Q.RARE)
@@ -3459,7 +3459,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40165, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Timeless Dreadstone -- 66432
 	recipe = AddRecipe(66432, V.WOTLK, Q.RARE)
@@ -3468,7 +3468,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40164, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Forceful Eye of Zul -- 66434
 	recipe = AddRecipe(66434, V.WOTLK, Q.RARE)
@@ -3477,7 +3477,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40169, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Misty Eye of Zul -- 66435
 	recipe = AddRecipe(66435, V.WOTLK, Q.RARE)
@@ -3486,7 +3486,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40171, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Lightning Eye of Zul -- 66439
 	recipe = AddRecipe(66439, V.WOTLK, Q.RARE)
@@ -3495,7 +3495,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40177, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Radiant Eye of Zul -- 66441
 	recipe = AddRecipe(66441, V.WOTLK, Q.RARE)
@@ -3504,7 +3504,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40180, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Energized Eye of Zul -- 66442
 	recipe = AddRecipe(66442, V.WOTLK, Q.RARE)
@@ -3513,7 +3513,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40179, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Shattered Eye of Zul -- 66443
 	recipe = AddRecipe(66443, V.WOTLK, Q.RARE)
@@ -3522,7 +3522,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40182, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Turbid Eye of Zul -- 66445
 	recipe = AddRecipe(66445, V.WOTLK, Q.RARE)
@@ -3531,7 +3531,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40173, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_GREEN")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Brilliant Cardinal Ruby -- 66446
 	recipe = AddRecipe(66446, V.WOTLK, Q.RARE)
@@ -3540,7 +3540,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40113, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Bold Cardinal Ruby -- 66447
 	recipe = AddRecipe(66447, V.WOTLK, Q.RARE)
@@ -3549,7 +3549,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40111, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Delicate Cardinal Ruby -- 66448
 	recipe = AddRecipe(66448, V.WOTLK, Q.RARE)
@@ -3558,7 +3558,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40112, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Precise Cardinal Ruby -- 66450
 	recipe = AddRecipe(66450, V.WOTLK, Q.RARE)
@@ -3567,7 +3567,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40118, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Subtle King's Amber -- 66452
 	recipe = AddRecipe(66452, V.WOTLK, Q.RARE)
@@ -3576,7 +3576,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40115, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Flashing Cardinal Ruby -- 66453
 	recipe = AddRecipe(66453, V.WOTLK, Q.RARE)
@@ -3585,7 +3585,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40116, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_RED")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Solid Majestic Zircon -- 66497
 	recipe = AddRecipe(66497, V.WOTLK, Q.RARE)
@@ -3593,7 +3593,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(46924, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(40119, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Sparkling Majestic Zircon -- 66498
 	recipe = AddRecipe(66498, V.WOTLK, Q.RARE)
@@ -3602,7 +3602,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40120, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Stormy Majestic Zircon -- 66499
 	recipe = AddRecipe(66499, V.WOTLK, Q.RARE)
@@ -3610,7 +3610,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(46926, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(40122, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Rigid Majestic Zircon -- 66501
 	recipe = AddRecipe(66501, V.WOTLK, Q.RARE)
@@ -3619,7 +3619,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40125, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Smooth King's Amber -- 66502
 	recipe = AddRecipe(66502, V.WOTLK, Q.RARE)
@@ -3628,7 +3628,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40124, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Mystic King's Amber -- 66505
 	recipe = AddRecipe(66505, V.WOTLK, Q.RARE)
@@ -3636,7 +3636,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(46932, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(40127, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Quick King's Amber -- 66506
 	recipe = AddRecipe(66506, V.WOTLK, Q.RARE)
@@ -3645,7 +3645,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40128, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Sovereign Dreadstone -- 66554
 	recipe = AddRecipe(66554, V.WOTLK, Q.RARE)
@@ -3654,7 +3654,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40129, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Purified Dreadstone -- 66556
 	recipe = AddRecipe(66556, V.WOTLK, Q.RARE)
@@ -3663,7 +3663,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40133, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Shifting Dreadstone -- 66557
 	recipe = AddRecipe(66557, V.WOTLK, Q.RARE)
@@ -3672,7 +3672,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40130, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Defender's Dreadstone -- 66560
 	recipe = AddRecipe(66560, V.WOTLK, Q.RARE)
@@ -3681,7 +3681,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40139, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Guardian's Dreadstone -- 66561
 	recipe = AddRecipe(66561, V.WOTLK, Q.RARE)
@@ -3690,7 +3690,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40141, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Mysterious Dreadstone -- 66562
 	recipe = AddRecipe(66562, V.WOTLK, Q.RARE)
@@ -3699,7 +3699,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40135, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Inscribed Ametrine -- 66567
 	recipe = AddRecipe(66567, V.WOTLK, Q.RARE)
@@ -3708,7 +3708,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40142, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Deadly Ametrine -- 66568
 	recipe = AddRecipe(66568, V.WOTLK, Q.RARE)
@@ -3717,7 +3717,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40147, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Potent Ametrine -- 66569
 	recipe = AddRecipe(66569, V.WOTLK, Q.RARE)
@@ -3726,7 +3726,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40152, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Veiled Dreadstone -- 66570
 	recipe = AddRecipe(66570, V.WOTLK, Q.RARE)
@@ -3735,7 +3735,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40153, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Willful Ametrine -- 66571
 	recipe = AddRecipe(66571, V.WOTLK, Q.RARE)
@@ -3744,7 +3744,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40154, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Etched Dreadstone -- 66572
 	recipe = AddRecipe(66572, V.WOTLK, Q.RARE)
@@ -3753,7 +3753,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40143, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Glinting Dreadstone -- 66573
 	recipe = AddRecipe(66573, V.WOTLK, Q.RARE)
@@ -3762,7 +3762,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40157, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Reckless Ametrine -- 66574
 	recipe = AddRecipe(66574, V.WOTLK, Q.RARE)
@@ -3771,7 +3771,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40155, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Accurate Dreadstone -- 66576
 	recipe = AddRecipe(66576, V.WOTLK, Q.RARE)
@@ -3780,7 +3780,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40162, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Champion's Ametrine -- 66579
 	recipe = AddRecipe(66579, V.WOTLK, Q.RARE)
@@ -3789,7 +3789,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40144, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.DPS, F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Stalwart Ametrine -- 66581
 	recipe = AddRecipe(66581, V.WOTLK, Q.RARE)
@@ -3798,7 +3798,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40160, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Resplendent Ametrine -- 66582
 	recipe = AddRecipe(66582, V.WOTLK, Q.RARE)
@@ -3807,7 +3807,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40145, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Fierce Ametrine -- 66583
 	recipe = AddRecipe(66583, V.WOTLK, Q.RARE)
@@ -3816,7 +3816,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40146, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Deft Ametrine -- 66584
 	recipe = AddRecipe(66584, V.WOTLK, Q.RARE)
@@ -3825,7 +3825,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40150, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Lucent Ametrine -- 66585
 	recipe = AddRecipe(66585, V.WOTLK, Q.RARE)
@@ -3834,7 +3834,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40149, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.DPS)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Resolute Ametrine -- 66586
 	recipe = AddRecipe(66586, V.WOTLK, Q.RARE)
@@ -3843,7 +3843,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40163, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER, F.TANK)
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-- Nightmare Tear -- 68253
 	recipe = AddRecipe(68253, V.WOTLK, Q.RARE)
@@ -3851,7 +3851,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(49112, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(49110, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
-	recipe:AddVendor(19065, 28701, 33637, 33680)
+	recipe:AddVendor(19065, 28701, 33637, 33680, 93527)
 
 	-------------------------------------------------------------------------------
 	-- Cataclysm.
