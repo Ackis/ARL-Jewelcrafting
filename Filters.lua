@@ -116,8 +116,8 @@ function module:InitializeItemFilters(parent_panel)
 		jewelcrafting_fist_weapon	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Fist Weapon"]),	text = L["Fist Weapon"],	row = 1, col = 1 },
 		jewelcrafting_head		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_HEAD),	text = _G.INVTYPE_HEAD,		row = 1, col = 2 },
 		jewelcrafting_neck		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_NECK),	text = _G.INVTYPE_NECK,		row = 2, col = 1 },
-		jewelcrafting_ring		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Ring"]),		text = L["Ring"],		row = 2, col = 2},
-		jewelcrafting_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 3, col = 1 },
+		jewelcrafting_ring		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_FINGER),	text = _G.INVTYPE_FINGER,	row = 2, col = 2},
+		jewelcrafting_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_TRINKET),	text = _G.INVTYPE_TRINKET,	row = 3, col = 1 },
 	}
 
 	equippable_toggle:SetScript("OnClick", function(self, button)
