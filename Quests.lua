@@ -36,6 +36,7 @@ function module:InitializeQuests()
 
 	AddQuest(39175,		Z.FROSTWALL,		42.0,	55.0,	"Horde")
 	AddQuest(39195,		Z.LUNARFALL,		32.0,	31.4,	"Alliance")
+	AddQuest(40532,		Z.DALARAN_BROKENISLES,	0.0,	0.0,	"Neutral") -- Needs updating
 
 	self.InitializeQuests = nil
 end
