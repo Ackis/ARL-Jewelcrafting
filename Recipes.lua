@@ -4959,7 +4959,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(71965, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(52489, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
-	recipe:AddWorldDrop(Z.EASTERN_KINGDOMS, Z.KALIMDOR)
+	recipe:AddMobDrop(50005, 50009, 50056, 50061, 50063, 50089)
 
 	-- Jeweler's Ruby Monocle -- 73625
 	recipe = AddRecipe(73625, V.CATA, Q.RARE)
