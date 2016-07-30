@@ -450,7 +450,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(21778, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddVendor(12941)
+	recipe:AddLimitedVendor(12941, 1)
 
 	-- Living Emerald Pendant -- 26911
 	recipe = AddRecipe(26911, V.TBC, Q.COMMON)
