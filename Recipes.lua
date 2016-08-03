@@ -7096,14 +7096,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77356, 79832, 87052, 87548)
 
-	-- Greater Taladite Amplifier -- 170703
-	recipe = AddRecipe(170703, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 700, 700)
-	recipe:SetRecipeItem(116080, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(115529, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
 	-- Glowing Iron Band -- 170704
 	recipe = AddRecipe(170704, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 600, 600, 600)
@@ -7256,14 +7248,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
 	recipe:AddVendor(77356, 79832, 87052, 87548)
 
-	-- Haste Taladite -- 170722
-	recipe = AddRecipe(170722, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 700, 700)
-	recipe:SetRecipeItem(116099, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(115806, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
-	recipe:AddVendor(77356, 79832, 87052, 87548)
-
 	-- Versatility Taladite -- 170723
 	recipe = AddRecipe(170723, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 700, 700)
@@ -7306,14 +7290,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
 	recipe:AddVendor(77356, 79832, 87052, 87548)
 
-	-- Greater Haste Taladite -- 170728
-	recipe = AddRecipe(170728, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 705, 710)
-	recipe:SetRecipeItem(116105, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(115813, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
-	recipe:AddVendor(77356, 79832, 87052, 87548)
-
 	-- Greater Versatility Taladite -- 170729
 	recipe = AddRecipe(170729, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 705, 710)
@@ -7352,14 +7328,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(118723, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_CREATED_ITEM")
 	recipe:AddCustom("DRAENOR_DEFAULT")
-
-	-- Powerful Taladite Amplifier -- 181419
-	recipe = AddRecipe(181419, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(122551, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(118723, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("JEWELCRAFTING_ITEM_ENHANCEMENT")
-	recipe:Retire()
 
 	-- Primal Gemcutting -- 182127
 	recipe = AddRecipe(182127, V.WOD, Q.COMMON)
@@ -7411,15 +7379,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(127762, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
 	recipe:AddVendor(68363, 68364)
-	recipe:AddDiscovery("DISCOVERY_JC_WOD")
-
-	-- Immaculate Haste Taladite -- 187637
-	recipe = AddRecipe(187637, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(700, 700, 700, 707, 715)
-	recipe:SetRecipeItem(127774, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(127763, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
-	recipe:AddRepVendor(FAC.ORDER_OF_THE_AWAKENED, REP.HONORED, 86379, 86387, 86389, 86391, 91322, 92501, 92503, 95424)
 	recipe:AddDiscovery("DISCOVERY_JC_WOD")
 
 	-- Immaculate Versatility Taladite -- 187639
