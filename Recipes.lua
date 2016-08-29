@@ -8039,12 +8039,17 @@ function module:InitializeRecipes()
 
 	-- Mass Prospect Leystone -- 225902
 	recipe = AddRecipe(225902, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetCraftedItem(130172, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_MATERIALS")
+	recipe:AddDiscovery("DISCOVERY_JC_LEGION")
 
 	-- Mass Prospect Felslate -- 225904
 	recipe = AddRecipe(225904, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetCraftedItem(130172, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_MATERIALS")
+	recipe:AddDiscovery("DISCOVERY_JC_LEGION")
 
 	self.InitializeRecipes = nil
 end

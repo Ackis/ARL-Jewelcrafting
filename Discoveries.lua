@@ -34,6 +34,7 @@ function module:InitializeDiscoveries()
 
 	AddDiscovery("DISCOVERY_JC_PANDARIA")
 	AddDiscovery("DISCOVERY_JC_WOD")
+	AddDiscovery("DISCOVERY_JC_LEGION")
 
 	self.InitializeDiscoveries = nil
 end
