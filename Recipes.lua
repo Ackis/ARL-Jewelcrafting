@@ -7552,6 +7552,7 @@ function module:InitializeRecipes()
 	recipe:AddVendor(100500)
 
 	-- Tranquil Necklace of Prophecy -- 195869
+	recipe = AddRecipe(195869, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetCraftedItem(130237, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.MONK)
