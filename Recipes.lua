@@ -7925,17 +7925,19 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(195936, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 780, 790, 800)
 	recipe:SetCraftedItem(130237, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.MONK)
+	recipe:AddFilters(F.MONK, F.INSTANCE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddMobDrop(98208)
+	recipe:AddCustom("HEROIC")
 
 	-- Vindictive Pandemonite Choker -- 195937
 	recipe = AddRecipe(195937, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 780, 790, 800)
 	recipe:SetCraftedItem(130238, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.DEMONHUNTER)
+	recipe:AddFilters(F.DEMONHUNTER, F.INSTANCE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
 	recipe:AddMobDrop(80927)
+	recipe:AddCustom("HEROIC")
 
 	-- Sylvan Maelstrom Amulet -- 195938
 	recipe = AddRecipe(195938, V.LEGION, Q.COMMON)
