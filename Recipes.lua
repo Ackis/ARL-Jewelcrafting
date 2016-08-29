@@ -8001,11 +8001,17 @@ function module:InitializeRecipes()
 
 	-- Queen's Opal Pendant -- 209604
 	recipe = AddRecipe(209604, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(136712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddVendor(100500)
 
 	-- Shadowruby Band -- 209605
 	recipe = AddRecipe(209605, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(136713, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+	recipe:AddVendor(100500)
 
 	-- Queen's Opal Loop -- 209606
 	recipe = AddRecipe(209606, V.LEGION, Q.COMMON)
@@ -8016,11 +8022,18 @@ function module:InitializeRecipes()
 
 	-- Queen's Opal Pendant -- 209607
 	recipe = AddRecipe(209607, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(136712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddVendor(93526)
 
 	-- Shadowruby Band -- 209608
 	recipe = AddRecipe(209608, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(136713, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.INSTANCE)
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+	recipe:AddMobDrop(107704)
 
 	-- Queen's Opal Loop -- 209609
 	recipe = AddRecipe(209609, V.LEGION, Q.COMMON)
@@ -8032,11 +8045,18 @@ function module:InitializeRecipes()
 
 	-- Queen's Opal Pendant -- 209610
 	recipe = AddRecipe(209610, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(136712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddQuest(41655)
+	recipe:AddCustom("WORLD_QUEST")
 
 	-- Shadowruby Band -- 209611
 	recipe = AddRecipe(209611, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(136713, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+--	recipe:AddProfession(PROF.ARCHAEOLOGY) --Needs updating
 
 	-- Mass Prospect Leystone -- 225902
 	recipe = AddRecipe(225902, V.LEGION, Q.COMMON)
