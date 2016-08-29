@@ -7919,7 +7919,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130236, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.ROGUE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
-	recipe:AddRepVendor(REP.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
 
 	-- Tranquil Necklace of Prophecy -- 195936
 	recipe = AddRecipe(195936, V.LEGION, Q.COMMON)
@@ -7927,7 +7927,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130237, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.MONK)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
-	recipe:AddVendor(98208)
+	recipe:AddMobDrop(98208)
 
 	-- Vindictive Pandemonite Choker -- 195937
 	recipe = AddRecipe(195937, V.LEGION, Q.COMMON)
