@@ -7397,5 +7397,407 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(87493)
 	recipe:AddDiscovery("DISCOVERY_JC_WOD")
 
+	-------------------------------------------------------------------------------
+	-- Legion.
+	-------------------------------------------------------------------------------
+	-- Deadly Deep Amber -- 195848
+	recipe = AddRecipe(195848, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 715, 730)
+	recipe:SetCraftedItem(130215, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40532)
+
+	-- Quick Azsunite -- 195849
+	recipe = AddRecipe(195849, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 715, 730)
+	recipe:SetCraftedItem(130216, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40533)
+
+	-- Versatile Skystone -- 195850
+	recipe = AddRecipe(195850, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 715, 730)
+	recipe:SetCraftedItem(130217, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40529)
+
+	-- Masterful Queen's Opal -- 195851
+	recipe = AddRecipe(195851, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 715, 730)
+	recipe:SetCraftedItem(130218, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40534)
+
+	-- Deadly Eye of Prophecy -- 195852
+	recipe = AddRecipe(195852, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 735, 750)
+	recipe:SetCraftedItem(130219, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40542)
+
+	-- Quick Dawnlight -- 195853
+	recipe = AddRecipe(195853, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 735, 750)
+	recipe:SetCraftedItem(130220, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40543)
+
+	-- Versatile Maelstrom Sapphire -- 195854
+	recipe = AddRecipe(195854, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 735, 750)
+	recipe:SetCraftedItem(130221, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40538)
+
+	-- Masterful Shadowruby -- 195855
+	recipe = AddRecipe(195855, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 735, 750)
+	recipe:SetCraftedItem(130222, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
+	recipe:AddQuest(40544)
+
+	-- Deep Amber Loop -- 195856
+	recipe = AddRecipe(195856, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 720)
+	recipe:SetCraftedItem(130223, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+	recipe:AddQuest(40527)
+
+	-- Skystone Loop -- 195857
+	recipe = AddRecipe(195857, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 720)
+	recipe:SetCraftedItem(130224, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+	recipe:AddQuest(40526)
+
+	-- Azsunite Loop -- 195858
+	recipe = AddRecipe(195858, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 720)
+	recipe:SetCraftedItem(130225, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_RING")
+	recipe:AddQuest(40528)
+
+	-- Deep Amber Pendant -- 195859
+	recipe = AddRecipe(195859, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(130226, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddQuest(40536)
+
+	-- Skystone Pendant -- 195860
+	recipe = AddRecipe(195860, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(130227, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddQuest(40536)
+
+	-- Azsunite Pendant -- 195861
+	recipe = AddRecipe(195861, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(130228, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
+	recipe:AddQuest(40536)
+
+	-- Prophetic Band -- 195862
+	recipe = AddRecipe(195862, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Maelstrom Band -- 195863
+	recipe = AddRecipe(195863, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Dawnlight Band -- 195864
+	recipe = AddRecipe(195864, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sorcerous Shadowruby Pendant -- 195865
+	recipe = AddRecipe(195865, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blessed Dawnlight Medallion -- 195866
+	recipe = AddRecipe(195866, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Twisted Pandemonite Choker -- 195867
+	recipe = AddRecipe(195867, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Subtle Shadowruby Pendant -- 195868
+	recipe = AddRecipe(195868, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tranquil Necklace of Prophecy -- 195869
+	recipe = AddRecipe(195869, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vindictive Pandemonite Choker -- 195870
+	recipe = AddRecipe(195870, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sylvan Maelstrom Amulet -- 195871
+	recipe = AddRecipe(195871, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Intrepid Necklace of Prophecy -- 195872
+	recipe = AddRecipe(195872, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ancient Maelstrom Amulet -- 195873
+	recipe = AddRecipe(195873, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Righteous Dawnlight Medallion -- 195874
+	recipe = AddRecipe(195874, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Raging Furystone Gorget -- 195875
+	recipe = AddRecipe(195875, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Grim Furystone Gorget -- 195876
+	recipe = AddRecipe(195876, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Saber's Eye -- 195877
+	recipe = AddRecipe(195877, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Saber's Eye of Strength -- 195878
+	recipe = AddRecipe(195878, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Saber's Eye of Agility -- 195879
+	recipe = AddRecipe(195879, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Saber's Eye of Intellect -- 195880
+	recipe = AddRecipe(195880, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Jeweled Lockpick -- 195881
+	recipe = AddRecipe(195881, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- JewelCraft -- 195882
+	recipe = AddRecipe(195882, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chatterstone -- 195883
+	recipe = AddRecipe(195883, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deep Amber Loop -- 195902
+	recipe = AddRecipe(195902, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Skystone Loop -- 195903
+	recipe = AddRecipe(195903, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Azsunite Loop -- 195904
+	recipe = AddRecipe(195904, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deep Amber Pendant -- 195905
+	recipe = AddRecipe(195905, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Skystone Pendant -- 195906
+	recipe = AddRecipe(195906, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Azsunite Pendant -- 195907
+	recipe = AddRecipe(195907, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Prophetic Band -- 195908
+	recipe = AddRecipe(195908, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Maelstrom Band -- 195909
+	recipe = AddRecipe(195909, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Dawnlight Band -- 195910
+	recipe = AddRecipe(195910, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sorcerous Shadowruby Pendant -- 195911
+	recipe = AddRecipe(195911, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blessed Dawnlight Medallion -- 195912
+	recipe = AddRecipe(195912, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Twisted Pandemonite Choker -- 195913
+	recipe = AddRecipe(195913, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Subtle Shadowruby Pendant -- 195914
+	recipe = AddRecipe(195914, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tranquil Necklace of Prophecy -- 195915
+	recipe = AddRecipe(195915, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vindictive Pandemonite Choker -- 195916
+	recipe = AddRecipe(195916, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sylvan Maelstrom Amulet -- 195917
+	recipe = AddRecipe(195917, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Intrepid Necklace of Prophecy -- 195918
+	recipe = AddRecipe(195918, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ancient Maelstrom Amulet -- 195919
+	recipe = AddRecipe(195919, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Righteous Dawnlight Medallion -- 195920
+	recipe = AddRecipe(195920, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Raging Furystone Gorget -- 195921
+	recipe = AddRecipe(195921, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Grim Furystone Gorget -- 195922
+	recipe = AddRecipe(195922, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deep Amber Loop -- 195923
+	recipe = AddRecipe(195923, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Skystone Loop -- 195924
+	recipe = AddRecipe(195924, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Azsunite Loop -- 195925
+	recipe = AddRecipe(195925, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deep Amber Pendant -- 195926
+	recipe = AddRecipe(195926, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Skystone Pendant -- 195927
+	recipe = AddRecipe(195927, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Azsunite Pendant -- 195928
+	recipe = AddRecipe(195928, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Prophetic Band -- 195929
+	recipe = AddRecipe(195929, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Maelstrom Band -- 195930
+	recipe = AddRecipe(195930, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Dawnlight Band -- 195931
+	recipe = AddRecipe(195931, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sorcerous Shadowruby Pendant -- 195932
+	recipe = AddRecipe(195932, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blessed Dawnlight Medallion -- 195933
+	recipe = AddRecipe(195933, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Twisted Pandemonite Choker -- 195934
+	recipe = AddRecipe(195934, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Subtle Shadowruby Pendant -- 195935
+	recipe = AddRecipe(195935, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tranquil Necklace of Prophecy -- 195936
+	recipe = AddRecipe(195936, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vindictive Pandemonite Choker -- 195937
+	recipe = AddRecipe(195937, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sylvan Maelstrom Amulet -- 195938
+	recipe = AddRecipe(195938, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Intrepid Necklace of Prophecy -- 195939
+	recipe = AddRecipe(195939, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ancient Maelstrom Amulet -- 195940
+	recipe = AddRecipe(195940, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Righteous Dawnlight Medallion -- 195941
+	recipe = AddRecipe(195941, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Raging Furystone Gorget -- 195942
+	recipe = AddRecipe(195942, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Grim Furystone Gorget -- 195943
+	recipe = AddRecipe(195943, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Loop -- 209603
+	recipe = AddRecipe(209603, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Pendant -- 209604
+	recipe = AddRecipe(209604, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Shadowruby Band -- 209605
+	recipe = AddRecipe(209605, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Loop -- 209606
+	recipe = AddRecipe(209606, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Pendant -- 209607
+	recipe = AddRecipe(209607, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Shadowruby Band -- 209608
+	recipe = AddRecipe(209608, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Loop -- 209609
+	recipe = AddRecipe(209609, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Queen's Opal Pendant -- 209610
+	recipe = AddRecipe(209610, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Shadowruby Band -- 209611
+	recipe = AddRecipe(209611, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Prospect Leystone -- 225902
+	recipe = AddRecipe(225902, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Prospect Felslate -- 225904
+	recipe = AddRecipe(225904, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+
 	self.InitializeRecipes = nil
 end
