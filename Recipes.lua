@@ -27,6 +27,7 @@ local Z = constants.ZONE_NAMES
 
 local FAC = constants.FACTION_IDS
 local REP = constants.REP_LEVELS
+local PROF = constants.PROFESSION_SPELL_IDS
 
 module.Recipes = {}
 
@@ -7881,7 +7882,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetCraftedItem(130230, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
---	recipe:AddProfession(PROF.FISHING) Suramar --Needs updating
+	recipe:AddTradeSkill(PROF.FISHING, Z.SURAMAR)
 
 	-- Dawnlight Band -- 195931
 	recipe = AddRecipe(195931, V.LEGION, Q.COMMON)
@@ -8056,7 +8057,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 760, 770, 780)
 	recipe:SetCraftedItem(136713, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
---	recipe:AddProfession(PROF.ARCHAEOLOGY) --Needs updating
+	recipe:AddTradeSkill(PROF.ARCHAEOLOGY, Z.HIGHMOUNTAIN)
 
 	-- Mass Prospect Leystone -- 225902
 	recipe = AddRecipe(225902, V.LEGION, Q.COMMON)
