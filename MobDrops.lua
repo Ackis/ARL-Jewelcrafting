@@ -67,7 +67,6 @@ function module:InitializeMobDrops()
 	AddMob(99611,	BN.THE_AMALGAM_OF_SOULS,			Z.BLACK_ROOK_HOLD,				 0.0,  0.0)
 	AddMob(107704,	BN.DARGRUL_THE_UNDERKING,			Z.NELTHARIONS_LAIR,				17.0, 70.0)
 	AddMob(109331,	BN.CALAMIR,					Z.SURAMAR,					 0.0,  0.0)
-	AddMob(110962,	BN.ODYN,					Z.HALLS_OF_VALOR,				 0.0,  0.0)
 
 	self.InitializeMobDrops = nil
 end
