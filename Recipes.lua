@@ -7973,8 +7973,8 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130242, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.PALADIN, F.INSTANCE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
-	recipe:AddMobDrop(106576)
-	recipe:AddCustom("HEROIC")
+	recipe:AddMobDrop(104218)
+	recipe:AddCustom("MYTHIC")
 
 	-- Raging Furystone Gorget -- 195942
 	recipe = AddRecipe(195942, V.LEGION, Q.COMMON)
