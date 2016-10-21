@@ -64,7 +64,6 @@ function module:InitializeMobDrops()
 	AddMob(76266,	BN.HIGH_SAGE_VIRYX,				Z.SKYREACH)
 	AddMob(87493,	BN.RUKHMAR,					Z.SPIRES_OF_ARAK,				35.0, 32.0)
 	AddMob(95067,	BN.SHADOW_LORD_ISKAR,				Z.HELLFIRE_CITADEL)
-
 	AddMob(109331,	BN.CALAMIR,					Z.SURAMAR,					 0.0,  0.0)
 
 	self.InitializeMobDrops = nil
