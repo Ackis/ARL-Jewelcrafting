@@ -8035,7 +8035,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(136713, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.INSTANCE)
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
-	recipe:AddMobDrop(107704)
+	recipe:AddMobDrop(91007)
 
 	-- Queen's Opal Loop -- 209609
 	recipe = AddRecipe(209609, V.LEGION, Q.COMMON)
