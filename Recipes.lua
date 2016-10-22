@@ -7956,7 +7956,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130240, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.HUNTER, F.INSTANCE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
-	recipe:AddMobDrop(107704)
+	recipe:AddMobDrop(91007)
 	recipe:AddCustom("HEROIC")
 
 	-- Ancient Maelstrom Amulet -- 195940
