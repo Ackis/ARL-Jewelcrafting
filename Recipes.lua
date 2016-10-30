@@ -7713,6 +7713,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130229, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddQuest(43943)
+	recipe:AddCustom("WITHERED_ARMY")
 
 	-- Maelstrom Band -- 195909
 	recipe = AddRecipe(195909, V.LEGION, Q.COMMON)
