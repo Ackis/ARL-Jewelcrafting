@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -29,7 +24,7 @@ function module:InitializeQuests()
 			faction = faction,
 			identifier = questID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = nil, -- Handled by memoizing table in the core.
 		})
 	end

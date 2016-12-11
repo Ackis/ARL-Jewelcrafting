@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -27,7 +22,7 @@ function module:InitializeDiscoveries()
 			faction = faction,
 			identifier = identifier,
 			item_list = {},
-			location = location,
+			locationName = location,
 			name = L[identifier],
 		})
 	end

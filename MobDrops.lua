@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -31,7 +26,7 @@ function module:InitializeMobDrops()
 			faction = nil,
 			identifier = npcID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = npcName,
 		})
 	end

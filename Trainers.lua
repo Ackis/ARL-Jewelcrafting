@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -29,7 +24,7 @@ function module:InitializeTrainers()
 			faction = faction,
 			identifier = trainerID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = trainerName,
 		})
 	end

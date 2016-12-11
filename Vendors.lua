@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -30,7 +25,7 @@ function module:InitializeVendors()
 			faction = faction,
 			identifier = vendorID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = vendorName,
 		})
 	end
