@@ -7922,7 +7922,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130236, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.ROGUE)
 	recipe:SetItemFilterType("JEWELCRAFTING_NECK")
-	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140, 115736)
 
 	-- Tranquil Necklace of Prophecy -- 195936
 	recipe = AddRecipe(195936, V.LEGION, Q.COMMON)
