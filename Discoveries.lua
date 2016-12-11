@@ -22,7 +22,7 @@ function module:InitializeDiscoveries()
 			faction = faction,
 			identifier = identifier,
 			item_list = {},
-			location = location,
+			locationName = location,
 			name = L[identifier],
 		})
 	end

@@ -24,7 +24,7 @@ function module:InitializeTrainers()
 			faction = faction,
 			identifier = trainerID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = trainerName,
 		})
 	end

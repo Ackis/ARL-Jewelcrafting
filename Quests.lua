@@ -24,7 +24,7 @@ function module:InitializeQuests()
 			faction = faction,
 			identifier = questID,
 			item_list = {},
-			location = zoneName,
+			locationName = zoneName,
 			name = nil, -- Handled by memoizing table in the core.
 		})
 	end
