@@ -83,7 +83,7 @@ function module:InitializeVendors()
 	AddVendor(93527,	L["Timothy Jones"],			Z.DALARAN_BROKENISLES,		40.0,	35.2,	"Neutral")
 	AddVendor(95424,	L["Dawn-Seeker Krisek"],		Z.TANAAN_JUNGLE,		57.8,	59.4,	"Alliance")
 	AddVendor(95425,	L["Dawn-Seeker Krisek"],		Z.TANAAN_JUNGLE,		60.4,	46.6,	"Horde")   -- Blizzard needs to stop having the same NPC id in multiple places
-	AddVendor(100500,	L["Jabrul"],				Z.DALARAN_BROKENISLES,		39.6,	34.8,	"Neutral") --Needs updating
+	AddVendor(100500,	L["Jabrul"],				Z.DALARAN_BROKENISLES,		39.6,	34.8,	"Neutral")
 
 	self.InitializeVendors = nil
 end
