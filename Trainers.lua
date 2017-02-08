@@ -56,6 +56,7 @@ function module:InitializeTrainers()
 	AddTrainer(85916, "Artificer Nissea",		Z.STORMSHIELD, 		43.5, 33.9, "Alliance")
 	AddTrainer(86010, "Alixander Swiftsteel", 	Z.WARSPEAR, 		60.0, 40.6, "Horde")
 	AddTrainer(93527, "Timothy Jones",		Z.DALARAN_BROKENISLES,	40.0, 35.2, "Neutral")
+	AddTrainer(100538, "Timothy Jones",		Z.AZSUNA,		46.7, 41.4, "Neutral")
 
 	self.InitializeTrainers = nil
 end
