@@ -7400,15 +7400,19 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(195848, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 715, 730)
 	recipe:SetCraftedItem(130215, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(138451, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
 	recipe:AddQuest(40532)
+	recipe:AddVendor(100500)
 
 	-- Quick Azsunite -- 195849
 	recipe = AddRecipe(195849, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 715, 730)
 	recipe:SetCraftedItem(130216, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(138452, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PRISMATIC")
 	recipe:AddQuest(40533)
+	recipe:AddVendor(100500)
 
 	-- Versatile Skystone -- 195850
 	recipe = AddRecipe(195850, V.LEGION, Q.COMMON)
@@ -7458,6 +7462,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130223, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddQuest(40527)
+	recipe:AddVendor(100500)
 
 	-- Skystone Loop -- 195857
 	recipe = AddRecipe(195857, V.LEGION, Q.COMMON)
@@ -7465,6 +7470,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(130224, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_RING")
 	recipe:AddQuest(40526)
+	recipe:AddVendor(100500)
 
 	-- Azsunite Loop -- 195858
 	recipe = AddRecipe(195858, V.LEGION, Q.COMMON)
