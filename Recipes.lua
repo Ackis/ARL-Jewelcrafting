@@ -8131,5 +8131,160 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("JEWELCRAFTING_MATERIALS")
 	recipe:AddDiscovery("DISCOVERY_JC_LEGION")
 
+	-- Empyrial Cosmic Crown -- 247751
+	recipe = AddRecipe(247751, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151724, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151587, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddQuest(48076)
+
+	-- Empyrial Cosmic Crown -- 247754
+	recipe = AddRecipe(247754, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151725, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151587, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddVendor(127120)
+
+	-- Empyrial Cosmic Crown -- 247755
+	recipe = AddRecipe(247755, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151726, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151587, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddMobDrop(126915)
+
+	-- Empyrial Deep Crown -- 247756
+	recipe = AddRecipe(247756, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151727, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151588, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddQuest(48076)
+
+	-- Empyrial Deep Crown -- 247757
+	recipe = AddRecipe(247757, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151728, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151588, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
+
+	-- Empyrial Deep Crown -- 247758
+	recipe = AddRecipe(247758, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151729, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151588, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddMobDrop(126915)
+
+	-- Mass Prospect Empyrium -- 247761
+	recipe = AddRecipe(247761, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(152726, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("JEWELCRAFTING_MATERIALS")
+	recipe:AddVendor(127120)
+
+	-- Empyrial Elemental Crown -- 247762
+	recipe = AddRecipe(247762, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151730, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151589, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddQuest(48076)
+
+	-- Empyrial Elemental Crown -- 247763
+	recipe = AddRecipe(247763, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151731, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151589, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddVendor(127120)
+
+	-- Empyrial Elemental Crown -- 247764
+	recipe = AddRecipe(247764, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151731, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151589, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddMobDrop(126915)
+
+	-- Empyrial Titan Crown -- 247765
+	recipe = AddRecipe(247765, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151733, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151590, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddQuest(48076)
+
+	-- Empyrial Titan Crown -- 247766
+	recipe = AddRecipe(247766, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151734, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151590, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
+
+	-- Empyrial Titan Crown -- 247767
+	recipe = AddRecipe(247767, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151735, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151590, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
+	recipe:AddMobDrop(126915)
+
+	-- Deadly Deep Chemirine -- 247771
+	recipe = AddRecipe(247771, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151736, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151580, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_ORANGE")
+	recipe:AddQuest(48075)
+
+	-- Quick Lightsphene -- 247772
+	recipe = AddRecipe(247772, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151737, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151583, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_YELLOW")
+	recipe:AddQuest(48075)
+
+	-- Masterful Argulite -- 247773
+	recipe = AddRecipe(247773, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151738, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151584, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_PURPLE")
+	recipe:AddQuest(48075)
+
+	-- Versatile Labradorite -- 247774
+	recipe = AddRecipe(247774, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151739, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151585, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("JEWELCRAFTING_GEM_BLUE")
+	recipe:AddQuest(48075)
+
+-- Training -- Not active
+	-- Empyrial Circlet -- 248937
+	recipe = AddRecipe(248937, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Empyrial Hesselian Setting -- 248938
+	recipe = AddRecipe(248938, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Empyrial Florid Malachite Setting -- 248939
+	recipe = AddRecipe(248939, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Empyrial Crown -- 248940
+	recipe = AddRecipe(248940, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+
+
+
 	self.InitializeRecipes = nil
 end
