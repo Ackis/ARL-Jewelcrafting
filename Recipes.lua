@@ -8145,7 +8145,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(151725, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(151587, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
-	recipe:AddVendor(127120)
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
 
 	-- Empyrial Cosmic Crown -- 247755
 	recipe = AddRecipe(247755, V.LEGION, Q.COMMON)
@@ -8184,7 +8184,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 1, 1, 1)
 	recipe:SetRecipeItem(152726, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("JEWELCRAFTING_MATERIALS")
-	recipe:AddVendor(127120)
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.FRIENDLY, 127120)
 
 	-- Empyrial Elemental Crown -- 247762
 	recipe = AddRecipe(247762, V.LEGION, Q.COMMON)
@@ -8200,7 +8200,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(151731, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(151589, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
-	recipe:AddVendor(127120)
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
 
 	-- Empyrial Elemental Crown -- 247764
 	recipe = AddRecipe(247764, V.LEGION, Q.COMMON)
