@@ -8205,7 +8205,7 @@ function module:InitializeRecipes()
 	-- Empyrial Elemental Crown -- 247764
 	recipe = AddRecipe(247764, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 790, 795, 800)
-	recipe:SetRecipeItem(151731, "BIND_ON_PICKUP")
+	recipe:SetRecipeItem(151732, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(151589, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("JEWELCRAFTING_HEAD")
 	recipe:AddMobDrop(126915)
